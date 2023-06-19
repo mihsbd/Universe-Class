@@ -1,0 +1,72 @@
+/* ## 1. Basic Introduction & Setup */
+
+h1.first {
+    /* ## 2. Font, Text & Background */
+    color: red;
+    /* background-color: black; */
+    display: inline-block;
+    text-align: center;
+    /* font-family: Georgia;
+    font-weight: lighter;
+    font-size: 50px;
+    font-style: italic; */
+
+    /* ## 3. Padding, Margin, Outline & Border */
+    border: 3px solid green;
+    outline: 2px dotted red;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 100px;
+    margin-left: 50px;
+
+    /* ## 4. Position, Opacity, Id, Class & Comment */
+    width: 600px;
+    /* height: 300px; */
+    /* max-width: 800px;
+    max-height: 600px; */
+
+
+}
+h1.second { color: blue; }
+
+#list {
+    background-color: green;
+}
+
+#list li {
+    /* ## 5. List, Link, Image & Text Effect */
+    float: left;
+    list-style: none;
+    padding-left: 10px;
+}
+
+a {
+    color: red;
+    background-color: green;
+    font-size: 40px;
+}
+
+a:hover {
+    color: white;
+    background-color: gray;
+}
+
+.psudo::first-letter {
+    color: green;
+}
+.psudo::first-line {
+    color: aqua;
+}
+.psudo::before {
+    content: "Hi, ";
+    /* content: url(image.jpg); */
+}
+
+img {
+    height: 25%;
+    width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+    /* ## 6. Media Query, Transform, Translate & Scale */
